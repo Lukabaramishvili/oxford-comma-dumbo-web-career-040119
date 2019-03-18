@@ -4,6 +4,6 @@ def oxford_comma(array)
   elsif array.length == 2 
     array.join(" and ")
   else
-    arra[0...-1].join(", ") << " and array"
+    arra[0...-1].join(", ") << " and #{array[-1]}"
   end
 end
